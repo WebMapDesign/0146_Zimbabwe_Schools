@@ -107,7 +107,7 @@ function drawMap() {
   };
 
   let iconSchool = L.icon({
-    iconUrl: "images/school_icon.png",
+    iconUrl: "images/school_icon_2.png",
     iconSize: [30, 28],
     popupAnchor: [0, -15],
   });
