@@ -191,6 +191,10 @@ function drawMap() {
         '<p class="popup-text">Students: ' + numberStudents + "</p>";
     }
 
+    if (deanName) {
+      popupContent += '<p class="popup-text">Dean Name: ' + deanName + "</p>";
+    }
+
     layer.bindPopup(popupContent, {});
   }
 
