@@ -1,14 +1,36 @@
 #map {
   font-family: Helvetica, Arial, sans-serif;
-  width: 750px;
-  height: 750px;
+  width: 800px;
+  height: 800px;
   border: 2px solid black;
   margin: 10px;
 }
 
 .leaflet-container {
-  background-color: #e6e6e6;
+  background-color: #fef4b6;
 }
+
+#map-title {
+  position: absolute;
+  z-index: 3000;
+  left: 25px;
+  bottom: 25px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+#text-title {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------popups------------ */
 
 .popup-title {
   font-size: 14px;
@@ -23,10 +45,33 @@
   line-height: 0.8;
 }
 
-.tooltip-city-name {
-  font-size: 12px;
+/* ------------tooltips------------ */
+
+.tooltip-no-label {
+  padding-left: 0;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none;
+}
+
+.tooltip-city-name-main {
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tooltip-city-name-secondary {
+  font-size: 9px;
   font-weight: 400;
   text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .tooltip-province-name {
@@ -37,31 +82,18 @@
   padding: 5px !important;
   margin: 1px !important;
   line-height: 14px;
-  border-width: 0px;
-  background-color: rgba(0, 0, 0, 0);
-  box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+}
+
+.tooltip-country-name {
+  font-size: 19px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1px !important;
+  margin: 1px !important;
+  line-height: 10px;
 }
 
 .star {
-  font-size: 1em;
-}
-
-#map-title {
-  position: absolute;
-  z-index: 3000;
-  left: 25px;
-  bottom: 25px;
-  width: auto;
-  height: auto;
-  padding: 15px;
-  background-color: #ffffff;
-  border: 1px solid black; 
-}
-
-#text-title {
-  font-size: 25px;
-  line-height: 25px;
-  font-weight: 800;
-  margin: 0;
-  padding: 0;
+  font-size: 15px;
 }
