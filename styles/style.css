@@ -1,6 +1,6 @@
 #map {
   font-family: Helvetica, Arial, sans-serif;
-  width: 800px;
+  width: 900px;
   height: 800px;
   border: 2px solid black;
   margin: 10px;
@@ -55,8 +55,8 @@
 }
 
 .tooltip-city-name-main {
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   text-align: center;
   padding-left: 0;
   padding-right: 0;
@@ -65,7 +65,7 @@
 }
 
 .tooltip-city-name-secondary {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 400;
   text-align: center;
   padding-left: 0;
@@ -96,4 +96,8 @@
 
 .star {
   font-size: 15px;
+}
+
+#color-selector {
+  color: #77b5fd;
 }
