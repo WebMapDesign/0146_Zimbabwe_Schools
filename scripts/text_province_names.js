@@ -3,7 +3,7 @@ const geojsonProvinceCentroids = {
 "name": "admin_1_province_centroids",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "ADM1_EN": "Bulawayo", "ADM1_PCODE": "ZW10" }, "geometry": { "type": "Point", "coordinates": [ 28.55, -19.82 ] } },
+{ "type": "Feature", "properties": { "ADM1_EN": "Bulawayo", "ADM1_PCODE": "ZW10" }, "geometry": { "type": "Point", "coordinates": [ 28.05, -19.99 ] } },
 { "type": "Feature", "properties": { "ADM1_EN": "Harare", "ADM1_PCODE": "ZW19" }, "geometry": { "type": "Point", "coordinates": [ 31.55, -17.85 ] } },
 { "type": "Feature", "properties": { "ADM1_EN": "Manicaland", "ADM1_PCODE": "ZW11" }, "geometry": { "type": "Point", "coordinates": [ 32.10, -19.35 ] } },
 { "type": "Feature", "properties": { "ADM1_EN": "Mashonaland Central", "ADM1_PCODE": "ZW12" }, "geometry": { "type": "Point", "coordinates": [ 31.25, -16.53 ] } },
