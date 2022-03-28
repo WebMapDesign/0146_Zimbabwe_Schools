@@ -58,17 +58,17 @@ function drawMap() {
 
   let map = L.map("map", {
     fullScreenControl: false,
-    zoomSnap: 1,
+    zoomSnap: 0.1,
     minZoom: 7,
     maxZoom: 9,
     maxBounds: mapBounds,
-  }).setView([-19.1, 29.2], 7);
+  }).setView([-19.1, 29.3], 7.2);
 
   L.easyButton(
     '<span class="star" style="padding:0px;">&starf;</span>',
 
     function (btn, map) {
-      map.setView([-19.1, 29.2], 7);
+      map.setView([-19.1, 29.3], 7.2);
     },
     "Default View"
   ).addTo(map);
